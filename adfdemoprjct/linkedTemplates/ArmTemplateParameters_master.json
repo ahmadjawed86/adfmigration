@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdemoprjct"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_accountKey": {
+			"value": ""
+		},
+		"LS_EVEN_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_PARQUETBULK_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://strgacountpn.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://strgacountpn.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://strgacountpn.dfs.core.windows.net/"
+		},
+		"LS_BULK_properties_typeProperties_url": {
+			"value": "https://strgacountpn.dfs.core.windows.net/"
+		},
+		"LS_EVEN_properties_typeProperties_url": {
+			"value": "https://strgacountpn.dfs.core.windows.net/"
+		},
+		"LS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvsoutputtrigger.dfs.core.windows.net/"
+		},
+		"LS_PARQUETBULK_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvsoutputtrigger.dfs.core.windows.net/"
+		},
+		"csvtrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/b2c896af-9668-403e-9812-170b5d42cb9c/resourceGroups/rg_dev_project/providers/Microsoft.Storage/storageAccounts/strgacountpn"
+		},
+		"eventrigger_manualfile_properties_typeProperties_scope": {
+			"value": "/subscriptions/b2c896af-9668-403e-9812-170b5d42cb9c/resourceGroups/rg_dev_project/providers/Microsoft.Storage/storageAccounts/strgacountpn"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/b2c896af-9668-403e-9812-170b5d42cb9c/resourceGroups/rg_dev_project/providers/Microsoft.Storage/storageAccounts/strgacountpn"
+		},
+		"triggernow_properties_typeProperties_scope": {
+			"value": "/subscriptions/b2c896af-9668-403e-9812-170b5d42cb9c/resourceGroups/rg_dev_project/providers/Microsoft.Storage/storageAccounts/strgacountpn"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
