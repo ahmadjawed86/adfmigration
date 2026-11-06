@@ -1,0 +1,17 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventcontainer/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/b2c896af-9668-403e-9812-170b5d42cb9c/resourceGroups/rg_dev_project/providers/Microsoft.Storage/storageAccounts/strgacountpn",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
